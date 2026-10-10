@@ -2494,7 +2494,7 @@
       "$env:PYTHONDONTWRITEBYTECODE",
       "$env:TEMP",
       "$env:TMP",
-      "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp",
+      "C:\\Users\\user\\AppData\\Local\\Temp",
       "C:\\workspace\\13_benchmark\\GPT-6 in Coding\\benchmark\\runs\\gpt-6-astra\\C4-microvm\\.pytest-tmp",
       "pytest"
     ],
@@ -2517,9 +2517,9 @@
       "C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C4-microvm/microvm/serializer.py b/C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C4-microvm/microvm/serializer.py",
       "C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C4-microvm/tests/test_microvm.py",
       "C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C4-microvm/tests/test_microvm.py b/C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C4-microvm/tests/test_microvm.py",
-      "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp",
-      "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789052313355-copilot-tool-output-6344173247d24ab18d83b8696d548f28.txt]",
-      "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789052522463-copilot-tool-output-c2a7e30043d14873abbbda15807a2d4c.txt]",
+      "C:\\Users\\user\\AppData\\Local\\Temp",
+      "C:\\Users\\user\\AppData\\Local\\Temp\\1789052313355-copilot-tool-output-6344173247d24ab18d83b8696d548f28.txt]",
+      "C:\\Users\\user\\AppData\\Local\\Temp\\1789052522463-copilot-tool-output-c2a7e30043d14873abbbda15807a2d4c.txt]",
       "C:\\\\workspace\\\\13_benchmark\\\\GPT-6 in Coding\\\\benchmark\\\\runs\\\\gpt-6-astra\\\\C4-microvm\\\\microvm\\\\__init__.py",
       "C:\\\\workspace\\\\13_benchmark\\\\GPT-6 in Coding\\\\benchmark\\\\runs\\\\gpt-6-astra\\\\C4-microvm\\\\microvm\\\\__main__.py",
       "C:\\\\workspace\\\\13_benchmark\\\\GPT-6 in Coding\\\\benchmark\\\\runs\\\\gpt-6-astra\\\\C4-microvm\\\\microvm\\\\compiler.py",
@@ -2580,7 +2580,7 @@
         "pytest"
       ],
       "allowlisted": [
-        "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp"
+        "C:\\Users\\user\\AppData\\Local\\Temp"
       ],
       "outside": [],
       "ignored": []
@@ -2637,9 +2637,9 @@
       ],
       "relative": [],
       "allowlisted": [
-        "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp",
-        "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789052313355-copilot-tool-output-6344173247d24ab18d83b8696d548f28.txt]",
-        "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789052522463-copilot-tool-output-c2a7e30043d14873abbbda15807a2d4c.txt]"
+        "C:\\Users\\user\\AppData\\Local\\Temp",
+        "C:\\Users\\user\\AppData\\Local\\Temp\\1789052313355-copilot-tool-output-6344173247d24ab18d83b8696d548f28.txt]",
+        "C:\\Users\\user\\AppData\\Local\\Temp\\1789052522463-copilot-tool-output-c2a7e30043d14873abbbda15807a2d4c.txt]"
       ],
       "outside": [
         "C:\\workspace...\\C4-microvm\\.pytest-tmp",

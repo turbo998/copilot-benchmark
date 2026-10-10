@@ -989,7 +989,7 @@ File C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\C
 
 ```
 ============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
 cachedir: .pytest_cache
 rootdir: C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\C4-microvm
 plugins: anyio-3.7.1, docker-3.1.1, mock-3.14.0
@@ -1513,7 +1513,7 @@ File C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\C
 
 ```
 ============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
 cachedir: .pytest_cache
 rootdir: C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\C4-microvm
 plugins: anyio-3.7.1, docker-3.1.1, mock-3.14.0
@@ -2823,7 +2823,7 @@ microvm\serializer.py:126: NameError
 __________________________ TestCLI.test_exec_command __________________________
 
 self = <test_microvm.TestCLI object at 0x0000020FC986BC10>
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-179/test_exec_command0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-179/test_exec_command0')
 
     def test_exec_command(self, tmp_path):
         prog_file = tmp_path / "prog.mv"
@@ -2842,7 +2842,7 @@ name '_load_constants' is not defined
 _________________________ TestCLI.test_disasm_command _________________________
 
 self = <test_microvm.TestCLI object at 0x0000020FC986C310>
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-179/test_disasm_command0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-179/test_disasm_command0')
 
     def test_disasm_command(self, tmp_path):
         prog_file = tmp_path / "prog.mv"

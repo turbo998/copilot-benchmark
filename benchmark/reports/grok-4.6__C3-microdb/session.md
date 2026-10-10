@@ -1046,7 +1046,7 @@ Created file C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\grok-4.6\C
 ================================== FAILURES ===================================
 __________________________ test_cli_quoting_and_null __________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-259/test_cli_quoting_and_null0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-259/test_cli_quoting_and_null0')
 
     def test_cli_quoting_and_null(tmp_path) -> None:  # type: ignore[no-untyped-def]
         p = tmp_path / "t.csv"
@@ -1063,7 +1063,7 @@ E       assert 2 == 0
 tests\test_microdb.py:473: AssertionError
 ________________________ test_empty_string_vs_null_csv ________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-259/test_empty_string_vs_null_csv0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-259/test_empty_string_vs_null_csv0')
 
     def test_empty_string_vs_null_csv(tmp_path) -> None:  # type: ignore[no-untyped-def]
         p = tmp_path / "t.csv"
@@ -1076,10 +1076,10 @@ E       assert 2 == 0
 
 tests\test_microdb.py:483: AssertionError
 ---------------------------- Captured stderr call -----------------------------
-malformed row in C:\Users\xuefengyin\AppData\Local\Temp\pytest-of-xuefengyin\pytest-259\test_empty_string_vs_null_csv0\t.csv
+malformed row in C:\Users\user\AppData\Local\Temp\pytest-of-user\pytest-259\test_empty_string_vs_null_csv0\t.csv
 __________________________ test_bool_csv_and_output ___________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-259/test_bool_csv_and_output0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-259/test_bool_csv_and_output0')
 
     def test_bool_csv_and_output(tmp_path) -> None:  # type: ignore[no-untyped-def]
         p = tmp_path / "t.csv"
@@ -1092,7 +1092,7 @@ E       assert 2 == 0
 
 tests\test_microdb.py:495: AssertionError
 ---------------------------- Captured stderr call -----------------------------
-malformed row in C:\Users\xuefengyin\AppData\Local\Temp\pytest-of-xuefengyin\pytest-259\test_bool_csv_and_output0\t.csv
+malformed row in C:\Users\user\AppData\Local\Temp\pytest-of-user\pytest-259\test_bool_csv_and_output0\t.csv
 =========================== short test summary info ===========================
 FAILED tests/test_microdb.py::test_cli_quoting_and_null - assert 2 == 0
 FAILED tests/test_microdb.py::test_empty_string_vs_null_csv - assert 2 == 0
@@ -1178,7 +1178,7 @@ File C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\grok-4.6\C3-microd
 ================================== FAILURES ===================================
 __________________________ test_bool_csv_and_output ___________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-260/test_bool_csv_and_output0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-260/test_bool_csv_and_output0')
 
     def test_bool_csv_and_output(tmp_path) -> None:  # type: ignore[no-untyped-def]
         p = tmp_path / "t.csv"

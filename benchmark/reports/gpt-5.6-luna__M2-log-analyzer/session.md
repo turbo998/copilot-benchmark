@@ -488,7 +488,7 @@ E       assert 0.0 == 2.0
 tests\test_logstats.py:46: AssertionError
 __________________ test_strict_cli_exits_two_without_stdout ___________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-388/test_strict_cli_exits_two_with0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-388/test_strict_cli_exits_two_with0')
 capsys = <_pytest.capture.CaptureFixture object at 0x00000229C94AA410>
 
     def test_strict_cli_exits_two_without_stdout(tmp_path, capsys):

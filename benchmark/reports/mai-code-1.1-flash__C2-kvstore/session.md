@@ -1202,7 +1202,7 @@ E           kvstore.errors.CorruptRecordError: key_len is zero
 kvstore\record.py:51: CorruptRecordError
 ___________________ test_segment_corrupt_last_record_raises ___________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_segment_corrupt_last_reco0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_segment_corrupt_last_reco0')
 
     def test_segment_corrupt_last_record_raises(tmp_path: Path) -> None:
         path = tmp_path / "000001.seg"
@@ -1214,7 +1214,7 @@ E       Failed: DID NOT RAISE <class 'kvstore.errors.CorruptSegmentError'>
 tests\test_kvstore.py:118: Failed
 _____________________ test_compaction_rewrites_live_keys ______________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_compaction_rewrites_live_0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_compaction_rewrites_live_0')
 
     def test_compaction_rewrites_live_keys(tmp_path: Path) -> None:
         store = KVStore(tmp_path)
@@ -1230,7 +1230,7 @@ kvstore\compact.py:38: in compact
     path.unlink(missing_ok=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-self = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_compaction_rewrites_live_0/000001.seg')
+self = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_compaction_rewrites_live_0/000001.seg')
 missing_ok = True
 
     def unlink(self, missing_ok=False):
@@ -1240,12 +1240,12 @@ missing_ok = True
         """
         try:
 >           os.unlink(self)
-E           PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\xuefengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-251\\test_compaction_rewrites_live_0\\000001.seg'
+E           PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\AppData\\Local\\Temp\\pytest-of-user\\pytest-251\\test_compaction_rewrites_live_0\\000001.seg'
 
 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pathlib.py:1147: PermissionError
 _____________________ test_compaction_preserves_key_order _____________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_compaction_preserves_key_0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_compaction_preserves_key_0')
 
     def test_compaction_preserves_key_order(tmp_path: Path) -> None:
         store = KVStore(tmp_path)
@@ -1260,7 +1260,7 @@ kvstore\compact.py:38: in compact
     path.unlink(missing_ok=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-self = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_compaction_preserves_key_0/000001.seg')
+self = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_compaction_preserves_key_0/000001.seg')
 missing_ok = True
 
     def unlink(self, missing_ok=False):
@@ -1270,12 +1270,12 @@ missing_ok = True
         """
         try:
 >           os.unlink(self)
-E           PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\xuefengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-251\\test_compaction_preserves_key_0\\000001.seg'
+E           PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\AppData\\Local\\Temp\\pytest-of-user\\pytest-251\\test_compaction_preserves_key_0\\000001.seg'
 
 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pathlib.py:1147: PermissionError
 _______________________ test_cli_compact_outputs_result _______________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_cli_compact_outputs_resul0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_cli_compact_outputs_resul0')
 capsys = <_pytest.capture.CaptureFixture object at 0x0000028E166C9510>
 
     def test_cli_compact_outputs_result(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:
@@ -1292,7 +1292,7 @@ kvstore\compact.py:38: in compact
     path.unlink(missing_ok=True)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-self = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-251/test_cli_compact_outputs_resul0/000001.seg')
+self = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-251/test_cli_compact_outputs_resul0/000001.seg')
 missing_ok = True
 
     def unlink(self, missing_ok=False):
@@ -1302,7 +1302,7 @@ missing_ok = True
         """
         try:
 >           os.unlink(self)
-E           PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\xuefengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-251\\test_cli_compact_outputs_resul0\\000001.seg'
+E           PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\AppData\\Local\\Temp\\pytest-of-user\\pytest-251\\test_cli_compact_outputs_resul0\\000001.seg'
 
 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pathlib.py:1147: PermissionError
 =========================== short test summary info ===========================

@@ -1146,7 +1146,7 @@ E         Use -v to get more diff
 tests\test_microdb.py:468: AssertionError
 ________________ test_cli_quotes_double_quotes_and_null_column ________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-148/test_cli_quotes_double_quotes_0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-148/test_cli_quotes_double_quotes_0')
 capsys = <_pytest.capture.CaptureFixture object at 0x000002B01729B250>
 
     def test_cli_quotes_double_quotes_and_null_column(tmp_path: Path, capsys) -> None:

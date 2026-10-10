@@ -685,7 +685,7 @@ Let me create a simple test script:
 
 ```
 ============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
 cachedir: .pytest_cache
 rootdir: C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\A4-fix-daterange
 plugins: anyio-3.7.1, docker-3.1.1, mock-3.14.0
@@ -735,7 +735,7 @@ Excellent! All tests pass including the ValueError test. Let me do a final compr
 
 ```
 ============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
 cachedir: .pytest_cache
 rootdir: C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\A4-fix-daterange
 plugins: anyio-3.7.1, docker-3.1.1, mock-3.14.0

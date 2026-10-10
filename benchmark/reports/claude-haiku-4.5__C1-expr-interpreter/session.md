@@ -861,7 +861,7 @@ self = <test_minilang.TestREPL object at 0x00000154D22BA650>
         )
 >       assert "error:" in result.stdout
 E       assert 'error:' in ''
-E        +  where '' = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...r\\minilang\\__main__.py", line 62\n    sys.exit(0)\n    ^^^\nSyntaxError: expected \'except\' or \'finally\' block\n').stdout
+E        +  where '' = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...r\\minilang\\__main__.py", line 62\n    sys.exit(0)\n    ^^^\nSyntaxError: expected \'except\' or \'finally\' block\n').stdout
 
 tests\test_minilang.py:291: AssertionError
 __________________ TestREPL.test_repl_string_escape_display ___________________

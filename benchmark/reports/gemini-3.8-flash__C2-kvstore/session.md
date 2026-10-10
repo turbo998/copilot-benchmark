@@ -876,7 +876,7 @@ Created file C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\gemini-3.8
 ================================== FAILURES ===================================
 _____________________ test_kvstore_rollover_on_size_limit _____________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-240/test_kvstore_rollover_on_size_0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-240/test_kvstore_rollover_on_size_0')
 
     def test_kvstore_rollover_on_size_limit(tmp_path: pathlib.Path) -> None:
         rec_size = len(encode_record("k", "v"))
@@ -892,7 +892,7 @@ E            +      where stats = <kvstore.store.KVStore object at 0x000002B52C0
 tests\test_kvstore.py:269: AssertionError
 ________________ test_compact_removes_old_and_drops_tombstones ________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-240/test_compact_removes_old_and_d0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-240/test_compact_removes_old_and_d0')
 
     def test_compact_removes_old_and_drops_tombstones(tmp_path: pathlib.Path) -> None:
         with KVStore(tmp_path, max_segment_bytes=50) as store:

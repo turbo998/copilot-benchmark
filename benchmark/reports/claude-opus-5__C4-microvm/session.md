@@ -1135,7 +1135,7 @@ Check the spelling of the name, or if a path was included, verify that the path 
 </details>
 
 ```
-C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: No module named microvm
+C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe: No module named microvm
 <shellId: 10 completed with exit code 0>
 ```
 

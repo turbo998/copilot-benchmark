@@ -105,9 +105,9 @@ These are the objective checks that will be applied. Make sure all of them hold.
 
 ### `view`
 
-**view the file at C:\Users\xuefengyin\.copilot\session-state\0a7ec499-1c82-434a-aa26-a8506ae30932\files\checkpoint.md.**
+**view the file at C:\Users\user\.copilot\session-state\0a7ec499-1c82-434a-aa26-a8506ae30932\files\checkpoint.md.**
 
-C:\Users\xuefengyin\.copilot\session-state\0a7ec499-1c82-434a-aa26-a8506ae30932\files\checkpoint.md
+C:\Users\user\.copilot\session-state\0a7ec499-1c82-434a-aa26-a8506ae30932\files\checkpoint.md
 
 ```
 Goal: implement Roman numeral encoder in roman.py with required validation and no import side effects.

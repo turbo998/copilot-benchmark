@@ -437,9 +437,9 @@ Created file C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\grok-4.6\M
 ```
 =================================== ERRORS ====================================
 ___________________ ERROR collecting tests/test_logstats.py ___________________
-C:\Users\xuefengyin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\python.py:493: in importtestmodule
+C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\python.py:493: in importtestmodule
     mod = import_path(
-C:\Users\xuefengyin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\pathlib.py:587: in import_path
+C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\pathlib.py:587: in import_path
     importlib.import_module(module_name)
 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py:126: in import_module
     return _bootstrap._gcd_import(name[level:], package, level)
@@ -451,7 +451,7 @@ C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x6
     ???
 <frozen importlib._bootstrap>:690: in _load_unlocked
     ???
-C:\Users\xuefengyin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\assertion\rewrite.py:184: in exec_module
+C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\assertion\rewrite.py:184: in exec_module
     exec(co, module.__dict__)
 tests\test_logstats.py:3: in <module>
     from logstats import analyze, main, parse_line

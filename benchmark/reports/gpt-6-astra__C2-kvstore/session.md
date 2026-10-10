@@ -447,7 +447,7 @@ The implementation and tests are in place. Recovery preserves truncated tail byt
 <summary>9 lines</summary>
 
 ```
-Output too large to read at once (4.0 MB). Saved to: C:\Users\XUEFEN~1\AppData\Local\Temp\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt
+Output too large to read at once (4.0 MB). Saved to: C:\Users\user\AppData\Local\Temp\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt
 Consider using tools like rg (for searching), head/tail (for viewing start/end), view with view_range (for specific sections), or jq (for JSON) to examine portions of the output.
 
 Preview (first 500 chars):

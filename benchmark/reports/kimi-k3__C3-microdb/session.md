@@ -1204,7 +1204,7 @@ E         + ,
 tests\test_microdb.py:744: AssertionError
 ____________________________ test_cli_csv_quoting _____________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-220/test_cli_csv_quoting0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-220/test_cli_csv_quoting0')
 capsys = <_pytest.capture.CaptureFixture object at 0x0000022027F48490>
 
     def test_cli_csv_quoting(tmp_path, capsys) -> None:

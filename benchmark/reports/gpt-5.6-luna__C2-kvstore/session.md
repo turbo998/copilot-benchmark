@@ -1229,7 +1229,7 @@ C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/tasks/ (16 path(s))
 ================================== FAILURES ===================================
 ______________________________ test_cli_set_get _______________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_set_get0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_set_get0')
 
     def test_cli_set_get(tmp_path):
         run = lambda *a: subprocess.run([sys.executable, "-m", "kvstore", str(tmp_path), *a],
@@ -1238,26 +1238,26 @@ tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefeng
         result = run("get", "a")
 >       assert result.returncode == 0 and result.stdout == "1\n"
 E       AssertionError: assert (0 == 0 and '' == '1\n'
-E        +  where 0 = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...ta\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_set_get0', 'get', 'a'], returncode=0, stdout='', stderr='').returncode
+E        +  where 0 = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...ta\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_set_get0', 'get', 'a'], returncode=0, stdout='', stderr='').returncode
 E         
 E         - 1)
 
 tests\test_kvstore.py:223: AssertionError
 _______________________________ test_cli_absent _______________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_absent0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_absent0')
 
     def test_cli_absent(tmp_path):
         result = subprocess.run([sys.executable, "-m", "kvstore", str(tmp_path), "get", "x"],
                                 capture_output=True, text=True)
 >       assert result.returncode == 1 and result.stdout == ""
 E       AssertionError: assert (0 == 1)
-E        +  where 0 = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...ata\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_absent0', 'get', 'x'], returncode=0, stdout='', stderr='').returncode
+E        +  where 0 = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...ata\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_absent0', 'get', 'x'], returncode=0, stdout='', stderr='').returncode
 
 tests\test_kvstore.py:229: AssertionError
 ____________________________ test_cli_delete_exit _____________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_delete_exit0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_delete_exit0')
 
     def test_cli_delete_exit(tmp_path):
         base = [sys.executable, "-m", "kvstore", str(tmp_path)]
@@ -1265,14 +1265,14 @@ tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefeng
         assert subprocess.run(base + ["delete", "a"]).returncode == 0
 >       assert subprocess.run(base + ["delete", "a"]).returncode == 1
 E       AssertionError: assert 0 == 1
-E        +  where 0 = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...efengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_delete_exit0', 'delete', 'a'], returncode=0).returncode
-E        +    where CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...efengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_delete_exit0', 'delete', 'a'], returncode=0) = <function run at 0x000001D837D68900>((['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\p...-m', 'kvstore', 'C:\\Users\\xuefengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_delete_exit0'] + ['delete', 'a']))
+E        +  where 0 = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...efengyin\\AppData\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_delete_exit0', 'delete', 'a'], returncode=0).returncode
+E        +    where CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...efengyin\\AppData\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_delete_exit0', 'delete', 'a'], returncode=0) = <function run at 0x000001D837D68900>((['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\p...-m', 'kvstore', 'C:\\Users\\user\\AppData\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_delete_exit0'] + ['delete', 'a']))
 E        +      where <function run at 0x000001D837D68900> = subprocess.run
 
 tests\test_kvstore.py:236: AssertionError
 ________________________________ test_cli_list ________________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_list0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_list0')
 
     def test_cli_list(tmp_path):
         base = [sys.executable, "-m", "kvstore", str(tmp_path)]
@@ -1286,41 +1286,41 @@ E         - a
 tests\test_kvstore.py:243: AssertionError
 _______________________________ test_cli_stats ________________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_stats0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_stats0')
 
     def test_cli_stats(tmp_path):
         base = [sys.executable, "-m", "kvstore", str(tmp_path)]
         result = subprocess.run(base + ["stats"], capture_output=True, text=True)
 >       assert result.returncode == 0 and result.stdout.startswith("live_keys=0 ")
 E       AssertionError: assert (0 == 0 and False)
-E        +  where 0 = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_stats0', 'stats'], returncode=0, stdout='', stderr='').returncode
+E        +  where 0 = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...AppData\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_stats0', 'stats'], returncode=0, stdout='', stderr='').returncode
 E        +  and   False = <built-in method startswith of str object at 0x00007FF953A6C6E0>('live_keys=0 ')
 E        +    where <built-in method startswith of str object at 0x00007FF953A6C6E0> = ''.startswith
-E        +      where '' = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_stats0', 'stats'], returncode=0, stdout='', stderr='').stdout
+E        +      where '' = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...AppData\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_stats0', 'stats'], returncode=0, stdout='', stderr='').stdout
 
 tests\test_kvstore.py:249: AssertionError
 ____________________________ test_cli_usage_error _____________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_usage_error0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_usage_error0')
 
     def test_cli_usage_error(tmp_path):
         result = subprocess.run([sys.executable, "-m", "kvstore", str(tmp_path), "set", "a"],
                                 capture_output=True, text=True)
 >       assert result.returncode == 2 and result.stdout == ""
 E       AssertionError: assert (0 == 2)
-E        +  where 0 = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_usage_error0', 'set', 'a'], returncode=0, stdout='', stderr='').returncode
+E        +  where 0 = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_usage_error0', 'set', 'a'], returncode=0, stdout='', stderr='').returncode
 
 tests\test_kvstore.py:255: AssertionError
 ______________________________ test_cli_bad_max _______________________________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-347/test_cli_bad_max0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-347/test_cli_bad_max0')
 
     def test_cli_bad_max(tmp_path):
         result = subprocess.run([sys.executable, "-m", "kvstore", "--max-segment-bytes", "1",
                                  str(tmp_path), "list"], capture_output=True, text=True)
 >       assert result.returncode == 2
 E       AssertionError: assert 0 == 2
-E        +  where 0 = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...ppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-347\\test_cli_bad_max0', 'list'], returncode=0, stdout='', stderr='').returncode
+E        +  where 0 = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...ppData\\Local\\Temp\\pytest-of-user\\pytest-347\\test_cli_bad_max0', 'list'], returncode=0, stdout='', stderr='').returncode
 
 tests\test_kvstore.py:261: AssertionError
 =========================== short test summary info ===========================
@@ -1506,7 +1506,7 @@ CompactionResult(segments_removed=1, records_written=1, records_dropped=2, bytes
 Traceback (most recent call last):
   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py", line 632, in _rmtree_unsafe
     os.unlink(fullname)
-PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\tmpn5yypn_h\\000002.seg'
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\AppData\\Local\\Temp\\tmpn5yypn_h\\000002.seg'
 
 During handling of the above exception, another exception occurred:
 
@@ -1525,7 +1525,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py", line 893, in onerror
     _os.unlink(path)
-PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\tmpn5yypn_h\\000002.seg'
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\Users\\user\\AppData\\Local\\Temp\\tmpn5yypn_h\\000002.seg'
 <shellId: 9 completed with exit code 1>
 ```
 
@@ -1541,7 +1541,7 @@ PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无�
 
 ```json
 {
-  "command": "Remove-Item -Recurse -Force 'C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\tmpn5yypn_h' -ErrorAction SilentlyContinue; Set-Location 'C:\\workspace\\13_benchmark\\GPT-6 in Coding\\benchmark\\runs\\gpt-5.6-luna\\C2-kvstore'; Get-ChildItem -Recurse -Force | Where-Object { $_.Name -in '__pycache__','.pytest_cache' } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue",
+  "command": "Remove-Item -Recurse -Force 'C:\\Users\\user\\AppData\\Local\\Temp\\tmpn5yypn_h' -ErrorAction SilentlyContinue; Set-Location 'C:\\workspace\\13_benchmark\\GPT-6 in Coding\\benchmark\\runs\\gpt-5.6-luna\\C2-kvstore'; Get-ChildItem -Recurse -Force | Where-Object { $_.Name -in '__pycache__','.pytest_cache' } | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue",
   "description": "Clean manual test artifacts"
 }
 ```

@@ -952,7 +952,7 @@ Added 1 file(s): C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\gpt-5.
 <summary>12 lines</summary>
 
 ```
-Output too large to read at once (30.5 KB). Saved to: C:\Users\XUEFEN~1\AppData\Local\Temp\1789544750028-copilot-tool-output-41052-4d5ef988-7551-4e4e-a4f5-f66c7fafa28f.txt
+Output too large to read at once (30.5 KB). Saved to: C:\Users\user\AppData\Local\Temp\1789544750028-copilot-tool-output-41052-4d5ef988-7551-4e4e-a4f5-f66c7fafa28f.txt
 Consider using tools like rg (for searching), head/tail (for viewing start/end), view with view_range (for specific sections), or jq (for JSON) to examine portions of the output.
 
 Preview (first 500 chars):
@@ -996,7 +996,7 @@ src = 'print 2+3;', kw = {}
 
 ```
 ============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
 cachedir: .pytest_cache
 rootdir: C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\gpt-5.6-luna\C4-microvm
 plugins: anyio-3.7.1, docker-3.1.1, mock-3.14.0

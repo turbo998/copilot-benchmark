@@ -195,7 +195,7 @@
         "kind": "failure",
         "message": [
           "assert 1 == 3",
-          " +  where 1 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...or.py\", line 55, in _from_stage\\n    table = tables[stage.table]\\n            ~~~~~~^^^^^^^^^^^^^\\nKeyError: \\'zz\\'\\n').returncode"
+          " +  where 1 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...or.py\", line 55, in _from_stage\\n    table = tables[stage.table]\\n            ~~~~~~^^^^^^^^^^^^^\\nKeyError: \\'zz\\'\\n').returncode"
         ]
       },
       {
@@ -203,7 +203,7 @@
         "kind": "failure",
         "message": [
           "AssertionError: assert 0 == 3",
-          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...ery_error_exit_thre4\\\\people.csv', 'SELECT id, count(*) FROM t'], returncode=0, stdout='id,count(*)\\n1,3\\n', stderr='').returncode"
+          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...ery_error_exit_thre4\\\\people.csv', 'SELECT id, count(*) FROM t'], returncode=0, stdout='id,count(*)\\n1,3\\n', stderr='').returncode"
         ]
       }
     ]

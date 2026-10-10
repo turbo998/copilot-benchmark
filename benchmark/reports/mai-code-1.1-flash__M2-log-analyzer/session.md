@@ -626,7 +626,7 @@ E       assert 3 == 4
 tests\test_logstats.py:77: AssertionError
 _____________ test_main_strict_exits_2_and_reports_malformed_line _____________
 
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-256/test_main_strict_exits_2_and_r0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-256/test_main_strict_exits_2_and_r0')
 
     def test_main_strict_exits_2_and_reports_malformed_line(tmp_path):
         path = tmp_path / "sample.log"
@@ -644,8 +644,8 @@ tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefeng
         assert completed.returncode == 2
         assert completed.stdout == ""
 >       assert "malformed line 2: bad line" in completed.stderr
-E       assert 'malformed line 2: bad line' in "C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\py...\AppData\\\\Local\\\\Temp\\\\pytest-of-xuefengyin\\\\pytest-256\\\\logstats.py': [Errno 2] No such file or directory\n"
-E        +  where "C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\py...\AppData\\\\Local\\\\Temp\\\\pytest-of-xuefengyin\\\\pytest-256\\\\logstats.py': [Errno 2] No such file or directory\n" = CompletedProcess(args=['C:\\Users\\xuefengyin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...AppData\\\\Local\\\\Temp\\\\pytest-of-xuefengyin\\\\pytest-256\\\\logstats.py': [Errno 2] No such file or directory\n").stderr
+E       assert 'malformed line 2: bad line' in "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\py...\AppData\\\\Local\\\\Temp\\\\pytest-of-user\\\\pytest-256\\\\logstats.py': [Errno 2] No such file or directory\n"
+E        +  where "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\py...\AppData\\\\Local\\\\Temp\\\\pytest-of-user\\\\pytest-256\\\\logstats.py': [Errno 2] No such file or directory\n" = CompletedProcess(args=['C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python...AppData\\\\Local\\\\Temp\\\\pytest-of-user\\\\pytest-256\\\\logstats.py': [Errno 2] No such file or directory\n").stderr
 
 tests\test_logstats.py:98: AssertionError
 =========================== short test summary info ===========================

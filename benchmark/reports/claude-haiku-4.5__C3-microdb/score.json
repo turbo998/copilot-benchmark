@@ -387,8 +387,8 @@
         "kind": "failure",
         "message": [
           "assert 3 == 2",
-          " +  where 3 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...z5n2kfra8p0\\\\python.exe', '-m', 'microdb', 'SELECT 1 FROM t'], returncode=3, stdout='', stderr=\"Table 't' not found\\n\").returncode",
-          " +    where CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...z5n2kfra8p0\\\\python.exe', '-m', 'microdb', 'SELECT 1 FROM t'], returncode=3, stdout='', stderr=\"Table 't' not found\\n\") = cli(*('SELECT 1 FROM t',))"
+          " +  where 3 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...z5n2kfra8p0\\\\python.exe', '-m', 'microdb', 'SELECT 1 FROM t'], returncode=3, stdout='', stderr=\"Table 't' not found\\n\").returncode",
+          " +    where CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...z5n2kfra8p0\\\\python.exe', '-m', 'microdb', 'SELECT 1 FROM t'], returncode=3, stdout='', stderr=\"Table 't' not found\\n\") = cli(*('SELECT 1 FROM t',))"
         ]
       },
       {
@@ -396,7 +396,7 @@
         "kind": "failure",
         "message": [
           "AssertionError: assert 0 == 3",
-          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...143\\\\test_cli_query_error_exit_thre2\\\\people.csv', 'SELECT id FROM t WHERE 1'], returncode=0, stdout='\\n\\n', stderr='').returncode"
+          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...143\\\\test_cli_query_error_exit_thre2\\\\people.csv', 'SELECT id FROM t WHERE 1'], returncode=0, stdout='\\n\\n', stderr='').returncode"
         ]
       },
       {
@@ -404,7 +404,7 @@
         "kind": "failure",
         "message": [
           "AssertionError: assert 0 == 3",
-          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...error_exit_thre4\\\\people.csv', 'SELECT id, count(*) FROM t'], returncode=0, stdout='id,count(*)\\n\\n1,3\\n\\n', stderr='').returncode"
+          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...error_exit_thre4\\\\people.csv', 'SELECT id, count(*) FROM t'], returncode=0, stdout='id,count(*)\\n\\n1,3\\n\\n', stderr='').returncode"
         ]
       }
     ]

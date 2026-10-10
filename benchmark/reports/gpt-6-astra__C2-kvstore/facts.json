@@ -1383,7 +1383,7 @@
           "initial_wait": 120
         },
         "success": true,
-        "result": "Output too large to read at once (4.0 MB). Saved to: C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt\nConsider using tools like rg (for searching), head/tail (for viewing start/end), view with view_range (for specific sections), or jq (for JSON) to examine portions of the output.\n\nPreview (first 500 chars):\n..............................................EEEE...................... [ 49%]\n........EEEEEE.......................................................... [ 97%]\n...                                                                      [100%]\n=================================== ERRORS ====================================\n_ ERROR at setup of test_encode_key_byte_length[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n<shellId: 0 completed with exit code 1>"
+        "result": "Output too large to read at once (4.0 MB). Saved to: C:\\Users\\user\\AppData\\Local\\Temp\\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt\nConsider using tools like rg (for searching), head/tail (for viewing start/end), view with view_range (for specific sections), or jq (for JSON) to examine portions of the output.\n\nPreview (first 500 chars):\n..............................................EEEE...................... [ 49%]\n........EEEEEE.......................................................... [ 97%]\n...                                                                      [100%]\n=================================== ERRORS ====================================\n_ ERROR at setup of test_encode_key_byte_length[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n<shellId: 0 completed with exit code 1>"
       },
       {
         "id": "call_9dZjEARQISIOtQzTmU0rvLtY",
@@ -1481,8 +1481,8 @@
       "C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C2-kvstore/kvstore/segment.py b/C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C2-kvstore/kvstore/segment.py",
       "C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C2-kvstore/tests/test_kvstore.py",
       "C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C2-kvstore/tests/test_kvstore.py b/C:/workspace/13_benchmark/GPT-6 in Coding/benchmark/runs/gpt-6-astra/C2-kvstore/tests/test_kvstore.py",
-      "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789035144634-copilot-tool-output-ddc2cb7794d344e4a1976084966f7932.txt]",
-      "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt",
+      "C:\\Users\\user\\AppData\\Local\\Temp\\1789035144634-copilot-tool-output-ddc2cb7794d344e4a1976084966f7932.txt]",
+      "C:\\Users\\user\\AppData\\Local\\Temp\\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt",
       "C:\\\\workspace\\\\13_benchmark\\\\GPT-6 in Coding\\\\benchmark\\\\runs\\\\gpt-6-astra\\\\C2-kvstore\\\\kvstore\\\\__init__.py",
       "C:\\\\workspace\\\\13_benchmark\\\\GPT-6 in Coding\\\\benchmark\\\\runs\\\\gpt-6-astra\\\\C2-kvstore\\\\kvstore\\\\__main__.py",
       "C:\\\\workspace\\\\13_benchmark\\\\GPT-6 in Coding\\\\benchmark\\\\runs\\\\gpt-6-astra\\\\C2-kvstore\\\\kvstore\\\\compact.py",
@@ -1566,8 +1566,8 @@
       ],
       "relative": [],
       "allowlisted": [
-        "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789035144634-copilot-tool-output-ddc2cb7794d344e4a1976084966f7932.txt]",
-        "C:\\Users\\XUEFEN~1\\AppData\\Local\\Temp\\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt"
+        "C:\\Users\\user\\AppData\\Local\\Temp\\1789035144634-copilot-tool-output-ddc2cb7794d344e4a1976084966f7932.txt]",
+        "C:\\Users\\user\\AppData\\Local\\Temp\\1789035166316-copilot-tool-output-53108-e47f04f1-c064-4624-b7e3-6776274b0f1d.txt"
       ],
       "outside": [
         "s:/responses",

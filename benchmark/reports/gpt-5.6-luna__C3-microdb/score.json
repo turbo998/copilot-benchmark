@@ -133,7 +133,7 @@
         "kind": "failure",
         "message": [
           "AssertionError: assert 3 == 0",
-          " +  where 3 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...wo_tables0\\\\r.csv', 'SELECT l.id FROM l JOIN r ON l.id = r.lid'], returncode=3, stdout='', stderr='unexpected token\\n').returncode"
+          " +  where 3 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...wo_tables0\\\\r.csv', 'SELECT l.id FROM l JOIN r ON l.id = r.lid'], returncode=3, stdout='', stderr='unexpected token\\n').returncode"
         ]
       },
       {
@@ -141,8 +141,8 @@
         "kind": "failure",
         "message": [
           "AssertionError: assert 1 == 2",
-          " +  where 1 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nTypeError: Column.__init__() missing 1 required positional argument: \\'type\\'\\n').returncode",
-          " +    where CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nTypeError: Column.__init__() missing 1 required positional argument: \\'type\\'\\n') = cli('--table', 't=C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Temp\\\\pytest-of-xuefengyin\\\\pytest-385\\\\test_cli_bad_header_exit_two0\\\\bad.csv', 'SELECT id FROM t')"
+          " +  where 1 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nTypeError: Column.__init__() missing 1 required positional argument: \\'type\\'\\n').returncode",
+          " +    where CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nTypeError: Column.__init__() missing 1 required positional argument: \\'type\\'\\n') = cli('--table', 't=C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\pytest-of-user\\\\pytest-385\\\\test_cli_bad_header_exit_two0\\\\bad.csv', 'SELECT id FROM t')"
         ]
       },
       {
@@ -150,7 +150,7 @@
         "kind": "failure",
         "message": [
           "AssertionError: assert 0 == 3",
-          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\xuefengyin\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...ery_error_exit_thre4\\\\people.csv', 'SELECT id, count(*) FROM t'], returncode=0, stdout='id,count(*)\\n1,3\\n', stderr='').returncode"
+          " +  where 0 = CompletedProcess(args=['C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\PythonSoftwareFoundation.Python...ery_error_exit_thre4\\\\people.csv', 'SELECT id, count(*) FROM t'], returncode=0, stdout='id,count(*)\\n1,3\\n', stderr='').returncode"
         ]
       }
     ]

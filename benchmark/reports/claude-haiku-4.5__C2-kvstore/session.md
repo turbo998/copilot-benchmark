@@ -750,7 +750,7 @@ Now let me run the tests to see what needs fixing:
 ___________________________ TestKVStore.test_stats ____________________________
 
 self = <test_kvstore.TestKVStore object at 0x0000017775E6FAD0>
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-61/test_stats0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-61/test_stats0')
 
     def test_stats(self, tmp_path):
         store = KVStore(tmp_path)
@@ -770,7 +770,7 @@ tests\test_kvstore.py:197: AssertionError
 __________________________ TestCLI.test_cli_set_get ___________________________
 
 self = <test_kvstore.TestCLI object at 0x0000017775E67E10>
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-61/test_cli_set_get0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-61/test_cli_set_get0')
 
     def test_cli_set_get(self, tmp_path):
         from kvstore.__main__ import main
@@ -781,7 +781,7 @@ tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefeng
 tests\test_kvstore.py:363: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-argv = ['C:\\Users\\xuefengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-61\\test_cli_set_get0', 'set', 'key', 'value']
+argv = ['C:\\Users\\user\\AppData\\Local\\Temp\\pytest-of-user\\pytest-61\\test_cli_set_get0', 'set', 'key', 'value']
 
     def main(argv: list[str] | None = None) -> int:
         parser = argparse.ArgumentParser(prog="kvstore")
@@ -802,7 +802,7 @@ kvstore\__main__.py:20: AttributeError
 ________________________ TestCLI.test_cli_get_missing _________________________
 
 self = <test_kvstore.TestCLI object at 0x0000017775E64610>
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-61/test_cli_get_missing0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-61/test_cli_get_missing0')
 
     def test_cli_get_missing(self, tmp_path):
         from kvstore.__main__ import main
@@ -818,7 +818,7 @@ tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefeng
 tests\test_kvstore.py:385: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-argv = ['C:\\Users\\xuefengyin\\AppData\\Local\\Temp\\pytest-of-xuefengyin\\pytest-61\\test_cli_get_missing0', 'get', 'missing']
+argv = ['C:\\Users\\user\\AppData\\Local\\Temp\\pytest-of-user\\pytest-61\\test_cli_get_missing0', 'get', 'missing']
 
     def main(argv: list[str] | None = None) -> int:
         parser = argparse.ArgumentParser(prog="kvstore")
@@ -839,7 +839,7 @@ kvstore\__main__.py:20: AttributeError
 ___________________________ TestCLI.test_cli_delete ___________________________
 
 self = <test_kvstore.TestCLI object at 0x0000017775E65110>
-tmp_path = WindowsPath('C:/Users/xuefengyin/AppData/Local/Temp/pytest-of-xuefengyin/pytest-61/test_cli_delete0')
+tmp_path = WindowsPath('C:/Users/user/AppData/Local/Temp/pytest-of-user/pytest-61/test_cli_delete0')
 
     def test_cli_delete(self, tmp_path):
         from kvstore.__main__ import main
@@ -951,7 +951,7 @@ Now let me run tests again to check the CLI issues:
 
 ```
 ============================= test session starts =============================
-platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\xuefengyin\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+platform win32 -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\user\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
 cachedir: .pytest_cache
 rootdir: C:\workspace\13_benchmark\GPT-6 in Coding\benchmark\runs\claude-haiku-4.5\C2-kvstore
 plugins: anyio-3.7.1, docker-3.1.1, mock-3.14.0
